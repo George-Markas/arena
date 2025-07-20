@@ -2,7 +2,7 @@
 
 Implementation of a fixed-capacity arena allocator
 
-## Example usage:
+## Example usage
 ```C
 #include "arena.h"
 #include <string.h>
@@ -26,3 +26,8 @@ int main(void) {
     return 0;
 }
 ```
+
+## Static linking
+Optionally, the provided makefile can be used to generate a .a file for static linking as follows:
+`make`
+`gcc someproj.c -L. -larena -o someprojbin`

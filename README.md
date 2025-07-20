@@ -28,6 +28,6 @@ int main(void) {
 ```
 
 ## Static linking
-Optionally, the provided makefile can be used to generate a .a file for static linking as follows:
-```make```
+Optionally, the provided makefile can be used to generate a .a file for static linking as follows:\
+```make```\
 ```gcc someproj.c -L. -larena -o someprojbin```
